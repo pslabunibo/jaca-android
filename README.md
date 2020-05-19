@@ -4,7 +4,8 @@ This repository is under construction. The code of the new version of JaCa-Andro
 
 ## Team
 
-...
+* Prof. Alessandro Ricci, University of Bologna, Italy ([WebSite](https://www.unibo.it/sitoweb/a.ricci/en) | GitHub)
+* Dr. Angelo Croatti, University of Bologna, Italy ([WebSite](https://www.unibo.it/sitoweb/a.croatti/en) | [GitHub](https://github.com/angelocroatti))
 
 ## Usage
 
