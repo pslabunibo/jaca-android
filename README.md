@@ -9,9 +9,8 @@ This repository is under construction. The code of the new version of JaCa-Andro
 
 ## Usage
 
-See the Wiki related to this repository for all information on how to include and use JaCa-Android in your Android projects. 
+See the [Wiki](https://github.com/pslabunibo/jaca-android/wiki) related to this repository for all information on how to include and use JaCa-Android in your Android projects. 
 
 ### Quick Guide
 
-
-
+TBA
