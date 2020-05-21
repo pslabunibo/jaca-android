@@ -1,0 +1,12 @@
+MAS helloworld{
+
+	infrastructure: Centralised
+
+    environment: jaca.CartagoEnvironment("infrastructure")
+
+    agents:
+        mainAgt mainAgent agentArchClass jaca.CAgentArch;
+        otherAgt otherAgent agentArchClass jaca.CAgentArch;
+
+    aslSourcePath: "helloworld/agents";
+}

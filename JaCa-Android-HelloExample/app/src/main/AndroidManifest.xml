@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.unibo.pslab.jaca_android.helloexample">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="mas2j"
+            android:value="/helloworld/project.mas2j" />
+
+        <service android:name="it.unibo.pslab.jaca_android.MasService" />
+
+        <activity
+            android:name="it.unibo.pslab.jaca_android.LauncherActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="it.unibo.pslab.jaca_android.core.JaCaBaseActivity"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".MainUI$MainActivity"
+            android:label="@string/app_name" />
+
+    </application>
+
+</manifest>
