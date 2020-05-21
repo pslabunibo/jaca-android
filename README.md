@@ -9,7 +9,9 @@ This repository is under construction. The code of the new version of JaCa-Andro
 
 ## Quick Guide
 
-See the [Wiki](https://github.com/pslabunibo/jaca-android/wiki) related to this repository for all information on how to include and use JaCa-Android in your Android projects. 
+See the [Wiki](https://github.com/pslabunibo/jaca-android/wiki) related to this repository for all information on use JaCa-Android in your Android projects. 
+
+To let your Android project accessing the JaCa-Android library, chose one of the following options.
 
 ### OPTION 1 - Import JaCa-Android via Maven Central
 
@@ -20,7 +22,7 @@ See the [Wiki](https://github.com/pslabunibo/jaca-android/wiki) related to this 
 * Create a new Android Standard Project using Android Studio IDE
 * Download the `jacaandroid-core-release.aar` from this repository
 * Copy the AAR into the `/libs` folder of your project
-* Include into the build.gradle file of your module (not the top-leve one) the local repositories access permission
+* Include into the `build.gradle` file of your module (not the top-leve one) the local repositories access permission
 ```
 repositories {
     flatDir {
@@ -28,13 +30,15 @@ repositories {
     }
 }
 ```
-* Include in the same build.gradle file following dependences
+* Include in the same `build.gradle` file following dependences
 ```
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    //Includes into the project the AAR availble into /libs
     implementation (name: 'jacaandroid-core-release', ext:'aar')
 
+    //Include the legacy support used by JaCa-Android into the project
     implementation 'com.android.support:support-annotations:28.0.0'
     implementation 'com.android.support:support-v4:28.0.0'
 }
