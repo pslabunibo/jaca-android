@@ -20,7 +20,7 @@ To let your Android project accessing the JaCa-Android library, chose one of the
 ### OPTION 2 - Import JaCa-Android as Android Archive (AAR)
 
 * Create a new Android Standard Project using Android Studio IDE
-* Download the `jacaandroid-core-release.aar` from this repository
+* Download the `jacaandroid-core-release.aar` from this repository from [Releases](https://github.com/pslabunibo/jaca-android/releases)
 * Copy the AAR into the `/libs` folder of your project
 * Include into the `build.gradle` file of your module (not the top-leve one) the local repositories access permission
 ```
