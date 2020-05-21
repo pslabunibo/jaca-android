@@ -9,7 +9,7 @@ This repository is under construction. The code of the new version of JaCa-Andro
 
 ## Quick Guide
 
-See the [Wiki](https://github.com/pslabunibo/jaca-android/wiki) related to this repository for all information on use JaCa-Android in your Android projects. 
+See the [Wiki](https://github.com/pslabunibo/jaca-android/wiki) related to this repository for all information on how to use JaCa-Android for creating MAS-based Android projects. 
 
 To let your Android project accessing the JaCa-Android library, chose one of the following options.
 
